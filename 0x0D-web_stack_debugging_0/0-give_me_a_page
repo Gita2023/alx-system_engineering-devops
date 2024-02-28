@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#start apache2 inside docker
 # Debugs Apache in provided container
 
-sudo service apache2 restart
+service apache2 restart
