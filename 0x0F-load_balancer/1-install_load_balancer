@@ -40,7 +40,7 @@ frontend  or-mita-tech-frontend
 
 backend or-mita-tech-backend
     balance roundrobin
-    server 512632-web-01 54.160.77.90:80 check
+    server 512632-web-01 54.144.200.41:80 check
     server 512632-web-02 34.229.71.38:80 check
 "
 
