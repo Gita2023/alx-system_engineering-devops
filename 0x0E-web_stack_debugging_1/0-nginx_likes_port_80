@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configures an nginx server to listen on pport 80.
+# remove the default nginx configuration file
+# configure nginx to listen on port 80 for all active IPv4 IPs
+ln -s /etc/nginx/sites-available/dafult /etc/nginx/sites-enabled/default
+# restart nginx
+service nginx restart
